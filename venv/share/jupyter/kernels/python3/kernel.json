@@ -1,0 +1,14 @@
+{
+ "argv": [
+  "C:/Users/mk744/OneDrive - Poornima University/Desktop/HOUSEPRICE/venv\\python.exe",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3 (ipykernel)",
+ "language": "python",
+ "metadata": {
+  "debugger": true
+ }
+}
