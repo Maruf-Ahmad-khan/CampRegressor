@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Payout Prediction Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Enter Campaign Details</h1>
+        <form action="{{url_for('predict_datapoint')}}" method="POST">
+            <label for="Amount">Amount:</label>
+            <input type="text" id="Amount" name="Amount" placeholder="Enter Amount" required>
+
+
+            <label for="Campaign_Name">Campaign_Name:</label>
+            <select id="Campaign_Name" name="Campaign_Name">
+                <option value="Pepperfry">Pepperfry</option>
+                <option value="Shopclues IN">Shopclues IN</option>
+                <option value="Boat">Boat</option>
+                <option value="Fernsnpetals">Fernsnpetals</option>
+                <option value="Nykaa Beauty">Nykaa Beauty</option>
+                <option value="Puma">Puma</option>
+                <option value="Firstcry">Firstcry</option>
+                <option value="GoDaddy">GoDaddy</option>
+                <option value="Croma Retail">Croma Retail</option>
+                <option value="Myntra">Myntra</option>
+                <option value="Ajio">Ajio</option>
+                <option value="Flipkart">Flipkart</option>
+            </select>
+
+            <label for="Sub_Id">Sub_Id:</label>
+            <select id="Sub_Id" name="Sub_Id">
+                <option value="web">web</option>
+                <option value="store_page">store_page</option>
+                <option value="telegram">telegram</option>
+                <option value="app">app</option>
+            </select>
+
+            <label for="Partner">Partner:</label>
+            <select id="Partner" name="Partner">
+                <option value="Cuelinks">Cuelinks</option>
+                <option value="Admitad">Admitad</option>
+            </select>
+
+            <button type="submit" class="btn">Predict Payout</button>
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+[2025-04-09 01:24:00,760] 22 root - INFO - Logging setup completed successfully!
+[2025-04-09 01:24:02,098] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-04-09 01:24:02,138] 97 werkzeug - INFO -  * Debugger PIN: 118-157-978
+[2025-04-09 01:24:14,820] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:14] "GET /predict HTTP/1.1" 200 -
+[2025-04-09 01:24:15,161] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:24:21,118] 57 root - INFO - Exception Occured in prediction pipeline
+[2025-04-09 01:24:21,149] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:21] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[2025-04-09 01:24:21,212] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:21] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:24:21,216] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:21] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-04-09 01:24:21,294] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:21] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=ComMMhMZfTrSnPNERdSg HTTP/1.1" 200 -
+[2025-04-09 01:24:21,308] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:24:21] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[2025-04-09 01:25:01,184] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\mk744\\OneDrive - Poornima University\\Desktop\\HOUSEPRICE\\src\\pipeline\\prediction_pipeline.py', reloading

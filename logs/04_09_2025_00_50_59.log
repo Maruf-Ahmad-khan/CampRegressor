@@ -1,0 +1,28 @@
+[2025-04-09 00:50:59,498] 22 root - INFO - Logging setup completed successfully!
+[2025-04-09 00:51:02,393] 26 root - INFO - Data Ingestion methods Starts
+[2025-04-09 00:51:02,423] 29 root - INFO - Dataset read as pandas DataFrame
+[2025-04-09 00:51:02,462] 33 root - INFO - Train test split
+[2025-04-09 00:51:02,509] 38 root - INFO - Data Ingestion Completed
+[2025-04-09 00:51:02,556] 85 root - INFO - Read train and test data completed
+[2025-04-09 00:51:02,562] 86 root - INFO - Train DataFrame Head: 
+  Campaign_Name          Id   Status       Date  Amount  Payout    Sub_Id Currency   Partner  Inventory              Email_Id
+0          Ajio    23300337  pending  1/11/2025   525.5   39.94       app      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+1        Myntra    23171584  pending   1/1/2025   359.0   16.16       app      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+2        Myntra    23406991  pending  1/16/2025   307.0   13.82  telegram      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+3          Ajio    23525380  pending  1/24/2025   199.0   22.69       app      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+4     Flipkart   1128253421  pending  2/20/2025    15.0    0.80       app      INR   Admitad  Flipshope  agoyal@flipshope.com
+[2025-04-09 00:51:02,565] 87 root - INFO - Test DataFrame Head : 
+  Campaign_Name          Id   Status       Date  Amount  Payout    Sub_Id Currency   Partner  Inventory              Email_Id
+0     Flipkart   1116719062  pending  1/12/2025    57.0    1.60       app      INR   Admitad  Flipshope  agoyal@flipshope.com
+1          Ajio    23539981  pending  1/25/2025   199.0   22.69       app      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+2        Myntra    23344896  pending  1/13/2025  1619.0   72.86  telegram      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+3        Myntra    23331869  pending  1/12/2025   289.0   13.01       app      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+4        Myntra    23240548  pending   1/6/2025   699.0   62.91  telegram      INR  Cuelinks  Flipshope  agoyal@flipshope.com
+[2025-04-09 00:51:02,566] 88 root - INFO - Obtaining preprocessing object
+[2025-04-09 00:51:02,566] 27 root - INFO - Data Transformation initiated
+[2025-04-09 00:51:02,566] 38 root - INFO - Pipeline Initiated
+[2025-04-09 00:51:02,598] 105 root - INFO - Applying preprocessing object on training and testing datasets.
+[2025-04-09 00:51:02,601] 116 root - INFO - Preprocessor pickle file saved
+[2025-04-09 00:51:02,601] 25 root - INFO - Splitting Dependent and Independent variable from train and test
+[2025-04-09 00:51:02,634] 43 root - INFO - Model Report : {'LinearRegression': 0.28864457762726026, 'Lasso': 0.28162707660589226, 'Ridge': 0.28863999834616183, 'ElasticNet': 0.2336378848839885}
+[2025-04-09 00:51:02,634] 54 root - INFO - Best Model Found, Model Name : LinearRegression, R2 Score: 0.28864457762726026

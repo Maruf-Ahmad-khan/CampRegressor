@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campaign Payout Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Campaign Payout Predictor</h1>
+        <p>Predict the Payout of a Campaign based on its attributes.</p>
+        <a href="{{ url_for('predict_datapoint') }}" class="btn">Get Started</a>
+    </div>
+</body>
+</html>

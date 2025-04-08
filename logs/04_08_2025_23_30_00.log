@@ -1,0 +1,13 @@
+[2025-04-08 23:30:00,741] 22 root - INFO - Logging setup completed successfully!
+[2025-04-08 23:30:06,108] 26 root - INFO - Data Ingestion methods Starts
+[2025-04-08 23:30:06,176] 29 root - INFO - Dataset read as pandas DataFrame
+[2025-04-08 23:30:06,265] 33 root - INFO - Train test split
+[2025-04-08 23:30:06,370] 38 root - INFO - Data Ingestion Completed
+[2025-04-08 23:30:06,589] 87 root - INFO - Read train and test data completed
+[2025-04-08 23:30:06,589] 88 root - INFO - Train DataFrame Columns: 
+['Campaign_Name', 'Id', 'Status', 'Date', 'Amount', 'Payout', 'Sub_Id', 'Currency', 'Partner', 'Inventory', 'Email_Id']
+[2025-04-08 23:30:06,590] 89 root - INFO - Test DataFrame Columns: 
+['Campaign_Name', 'Id', 'Status', 'Date', 'Amount', 'Payout', 'Sub_Id', 'Currency', 'Partner', 'Inventory', 'Email_Id']
+[2025-04-08 23:30:06,590] 27 root - INFO - Data Transformation initiated
+[2025-04-08 23:30:06,591] 38 root - INFO - Pipeline Initiated
+[2025-04-08 23:30:06,604] 121 root - INFO - Exception occurred in initiate_data_transformation
