@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h1>Prediction Result</h1>
-        <p>The estimated Payout of the Campaign is: <strong>INR{{ final_result }}</strong></p>
+        <p>The estimated Payout of the Campaign is: <strong> INR {{ final_result }}</strong></p>
         <a href="{{ url_for('predict_datapoint') }}" class="btn">Predict Again</a>
         <a href="{{ url_for('home_page') }}" class="btn">Home</a>
     </div>

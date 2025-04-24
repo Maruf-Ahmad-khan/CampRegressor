@@ -1,3 +1,18 @@
 [2025-04-09 01:38:54,407] 22 root - INFO - Logging setup completed successfully!
 [2025-04-09 01:38:55,445] 97 werkzeug - WARNING -  * Debugger is active!
 [2025-04-09 01:38:55,456] 97 werkzeug - INFO -  * Debugger PIN: 118-157-978
+[2025-04-09 01:39:10,091] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:10] "GET /predict HTTP/1.1" 200 -
+[2025-04-09 01:39:10,272] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:39:20,345] 53 root - INFO - Data Frame Gathered
+[2025-04-09 01:39:20,610] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:20] "POST /predict HTTP/1.1" 200 -
+[2025-04-09 01:39:20,635] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:39:25,287] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:25] "GET /predict HTTP/1.1" 200 -
+[2025-04-09 01:39:25,319] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:39:37,402] 53 root - INFO - Data Frame Gathered
+[2025-04-09 01:39:37,420] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:37] "POST /predict HTTP/1.1" 200 -
+[2025-04-09 01:39:37,456] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:39:39,259] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:39] "GET /predict HTTP/1.1" 200 -
+[2025-04-09 01:39:39,279] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:39:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-04-09 01:40:01,413] 53 root - INFO - Data Frame Gathered
+[2025-04-09 01:40:01,428] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:40:01] "POST /predict HTTP/1.1" 200 -
+[2025-04-09 01:40:01,459] 97 werkzeug - INFO - 127.0.0.1 - - [09/Apr/2025 01:40:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
