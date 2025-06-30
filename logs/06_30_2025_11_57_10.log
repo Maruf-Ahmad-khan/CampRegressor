@@ -1,0 +1,5 @@
+[2025-06-30 11:57:10,643] 22 root - INFO - Logging setup completed successfully!
+[2025-06-30 11:57:11,516] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-30 11:57:11,516] 97 werkzeug - INFO -  * Debugger PIN: 296-058-325
+[2025-06-30 11:57:57,747] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\mk744\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\setuptools\\command\\develop.py', reloading
+[2025-06-30 11:57:57,845] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\mk744\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\setuptools\\_distutils\\cmd.py', reloading

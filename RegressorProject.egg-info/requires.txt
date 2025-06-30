@@ -1,7 +1,8 @@
-numpy
-pandas
-Flask
-seaborn
-matplotlib
-scikit-learn
-ipykernel
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.6.3
+seaborn==0.12.2
+Flask==2.2.3
+ipykernel==6.21.2
+streamlit==1.19.0

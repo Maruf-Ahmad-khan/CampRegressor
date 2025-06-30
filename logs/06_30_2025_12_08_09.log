@@ -1,0 +1,11 @@
+[2025-06-30 12:08:09,885] 22 root - INFO - Logging setup completed successfully!
+[2025-06-30 12:08:11,491] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-06-30 12:08:11,499] 97 werkzeug - INFO -  * Debugger PIN: 118-157-978
+[2025-06-30 12:08:18,933] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jun/2025 12:08:18] "GET / HTTP/1.1" 200 -
+[2025-06-30 12:08:19,142] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jun/2025 12:08:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-06-30 12:08:22,110] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jun/2025 12:08:22] "GET /predict HTTP/1.1" 200 -
+[2025-06-30 12:08:22,152] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jun/2025 12:08:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-06-30 12:08:26,054] 53 root - INFO - Data Frame Gathered
+[2025-06-30 12:08:26,828] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jun/2025 12:08:26] "POST /predict HTTP/1.1" 200 -
+[2025-06-30 12:08:26,869] 97 werkzeug - INFO - 127.0.0.1 - - [30/Jun/2025 12:08:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+[2025-06-30 12:14:59,101] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\mk744\\OneDrive - Poornima University\\Desktop\\HOUSEPRICE\\apps.py', reloading
